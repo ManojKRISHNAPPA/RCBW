@@ -3,14 +3,15 @@ second
 third
 fourth     /// wrote on initi commit
 
-
+fifth    /// second commit
+six     /// second commit
 .
 
-.
+  /// dot removed on second commit
 
 
-.
+  /// dot removed on second commit
 
 updated
-/// initial commit
+
 done 
