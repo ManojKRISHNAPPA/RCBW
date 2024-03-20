@@ -1,2 +1,2 @@
-# RCBW and e sala cup namduuu
+# RCBW and E Sala Cup Namduuu
 
