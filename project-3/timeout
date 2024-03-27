@@ -4,7 +4,9 @@ pipeline {
         stage('Timeout-NK'){
             steps {
                 retry(3) {
-                    sh "THIS IS NOT WORING:C'
+                    sh '''
+                        echo "THIS IS NOT WORING:C"
+                       ''' 
                 }
             }
         }
