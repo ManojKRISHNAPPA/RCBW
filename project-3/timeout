@@ -2,10 +2,9 @@ pipeline {
     agent any 
     stages{
         stage('Timeout-NK'){
-            steps{
-                retry(3){
-                    sh "echo hello world"
-			UPIMte
+            steps {
+                retry(3) {
+                    sh "THIS IS NOT WORING:C'
                 }
             }
         }
