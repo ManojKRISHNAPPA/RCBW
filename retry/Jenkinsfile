@@ -1,17 +1,14 @@
-pipeline{
-	agent any
-	stages{
-		stage("stages"){ 
-				steps{
-					retry(3){					
-						sh '''  
-							"echo retry" 
-						   '''
-						}
-				    }
-				
-				}	
-		}
-
+pipeline {
+    agent any 
+    stages{
+        stage('Timeout-NK'){
+            steps {
+                retry(3) {
+                    sh '''
+                        echo "THIS IS NOT WORING:C"
+                       ''' 
+                }
+            }
+        }
+    }
 }
-
