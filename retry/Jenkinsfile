@@ -1,0 +1,17 @@
+pipeline{
+	agent any
+	stages{
+		stage("stages"){ 
+				steps{
+					retry(3){					
+						sh '''  
+							"echo retry" 
+						   '''
+						}
+				    }
+				
+				}	
+		}
+
+}
+
