@@ -1,0 +1,19 @@
+pipeline{
+	agent any
+	stages{
+		stage("stages"){ 
+				steps{
+					sh ''' 
+						echo "checking of poll scm"
+				           '''
+					sh '''
+						df -kh
+						du -kH
+					   '''
+				    }
+				
+				}	
+		}
+
+}
+
