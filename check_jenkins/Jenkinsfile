@@ -1,0 +1,17 @@
+pipeline{
+	agent any
+	stages{
+		stage('stages'){ 
+				step{
+					sh '''
+						cal
+						date
+						uptime
+							'''
+				    }
+				
+				}	
+		}
+
+}
+
