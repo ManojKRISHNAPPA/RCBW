@@ -1,8 +1,8 @@
 pipeline{
 	agent any
 	stages{
-		stage('stages'){ 
-				step{
+		stage("stages"){ 
+				steps{
 					sh '''
 						cal
 						date
