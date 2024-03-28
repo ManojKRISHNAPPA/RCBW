@@ -1,10 +1,11 @@
 pipeline {
     agent any 
     stages{
-        stage('Timeout-NK'){
+        stage('Timeout'){
             steps {
                 retry(3) {
                     sh '''
+                    upTIme
                         echo "THIS IS NOT WORING:C"
                        ''' 
                 }
