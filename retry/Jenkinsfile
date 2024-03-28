@@ -5,8 +5,7 @@ pipeline {
             steps {
                 retry(3) {
                     sh '''
-                    upTIme
-                        echo "THIS IS NOT WORING:C"
+                            whoami
                        ''' 
                 }
             }
