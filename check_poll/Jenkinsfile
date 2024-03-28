@@ -10,6 +10,10 @@ pipeline{
 						df -kh
 						du -kH
 					   '''
+					sh '''
+						date
+						cal
+					   '''
 				    }
 				
 				}	
